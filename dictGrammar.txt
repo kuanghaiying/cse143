@@ -1,0 +1,3 @@
+dict::= << >> | << content >>
+content::= keyValuePair | keyValuePair content
+keyValuePair::= name name | name number number R | name dict
